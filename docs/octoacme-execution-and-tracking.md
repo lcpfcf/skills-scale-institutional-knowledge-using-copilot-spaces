@@ -17,11 +17,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
+The **Quality Lead / QA Champion** coordinates the quality agenda across the execution phase. Developers and the QA Champion collaborate to ensure each change passes the quality gates defined in the [Quality Gates Checklist](octoacme-quality-gates-checklist.md) before it can advance toward release.
+
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- Quality gate sign-off by QA Champion required before a feature is marked release-ready
 
 ## Reporting & Metrics
 - Track velocity and burndown

@@ -50,6 +50,9 @@ OctoAcme uses a lightweight, end-to-end project management lifecycle designed to
 - **Sprint/Iteration Backlog** — prioritized work items with acceptance criteria.
 - **Risk Register** — tracked risks, owners, and mitigation plans.
 - **Retrospective Notes and Action Items** — learnings and tracked improvements from each cycle.
+- **[Release Readiness Checklist](octoacme-release-readiness-checklist.md)** — go/no-go gate owned by the Release Manager and QA Champion before every production release.
+- **[Quality Gates Checklist](octoacme-quality-gates-checklist.md)** — mandatory quality checkpoints from code review through release candidate validation, owned by the QA Champion.
+- **[Stakeholder Update Template](octoacme-stakeholder-update-template.md)** — standard format for stakeholder communications owned by the Stakeholder Liaison.
 
 ---
 
@@ -70,8 +73,14 @@ Roles are defined to reinforce clear accountability while keeping collaboration 
 - A **Project Manager (PM)** coordinates delivery operations — schedules, risk management, stakeholder communications, and overall execution mechanics.
 - The **Product Manager (PdM)/Product Lead** drives outcomes, prioritization, and success measurement.
 - **Developers** own implementation quality, contribute to estimation, and help identify technical risks.
-- **QA/Testing** validates quality and acceptance criteria.
+- The **Release Manager** owns end-to-end release coordination, go/no-go decisions, and deployment safety.
+- The **Quality Lead / QA Champion** drives the quality agenda, coordinates test planning, and provides sign-off at each quality gate.
+- The **Stakeholder Liaison** manages external communications and ensures stakeholders receive timely, accurate updates.
+- A **Subject Matter Expert (SME)** provides domain or technical depth to validate requirements and solution approaches.
+- A **UX Designer** translates product requirements into user-centered workflows and designs.
 - **Stakeholders** provide requirements, input, and approvals through explicit communication cadences and decision gates.
+
+See [Roles & Personas](octoacme-roles-and-personas.md) for full definitions, interactions, and a RACI overview.
 
 Execution relies on a steady team rhythm and disciplined workflow management. Teams use a project board with clear work states (Backlog → Ready → In Progress → In Review → QA → Done), supported by daily standups, weekly delivery syncs, and sprint/milestone demos. PM and PdM align weekly; stakeholders receive regular updates (weekly or milestone-based). Risks and dependencies are tracked in a simple risk register and escalated through a defined path — team triage first, then PM to Product Lead/dependent teams, and finally sponsor escalation for business-impacting issues.
 
@@ -95,4 +104,7 @@ Quality assurance is built into both the delivery workflow and the release proce
 | [Risks & Communication](octoacme-risks-and-communication.md) | Risk register process, escalation paths, and stakeholder communication. |
 | [Release & Deployment](octoacme-release-and-deployment.md) | Release checklists, deployment process, and post-deploy verification. |
 | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Retrospective format, action item tracking, and improvement cycles. |
-| [Roles & Personas](octoacme-roles-and-personas.md) | Detailed role definitions for PM, PdM, Developers, QA, and Stakeholders. |
+| [Roles & Personas](octoacme-roles-and-personas.md) | Detailed role definitions for PM, PdM, Developers, Release Manager, QA Champion, Stakeholder Liaison, UX Designer, and SME — with RACI overview. |
+| [Release Readiness Checklist](octoacme-release-readiness-checklist.md) | Go/no-go gate for production releases; owned by Release Manager and QA Champion. |
+| [Quality Gates Checklist](octoacme-quality-gates-checklist.md) | Mandatory quality checkpoints from code review through release candidate sign-off; owned by QA Champion. |
+| [Stakeholder Update Template](octoacme-stakeholder-update-template.md) | Standard format for stakeholder communications; owned by Stakeholder Liaison. |
